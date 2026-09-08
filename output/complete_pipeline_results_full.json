@@ -1,0 +1,3660 @@
+{
+  "metadata": {
+    "phase": "1-2-3 complete + F2 + F5 + F6",
+    "videos_processed": 9,
+    "features": {
+      "F1": "Card detection (52 classes)",
+      "F2": "New card appearance detection",
+      "F3": "Hand assignment",
+      "F4": "Sum calculation",
+      "F5": "Hidden dealer card handling",
+      "F6": "Complete game state logging"
+    }
+  },
+  "results": [
+    {
+      "video": "testA.MOV",
+      "fps": 30.0,
+      "total_frames": 158,
+      "player_cards": [
+        "QH",
+        "JH"
+      ],
+      "player_value": 20,
+      "dealer_visible_cards": [
+        "8C"
+      ],
+      "dealer_hidden_card": "KC",
+      "dealer_total_value": 28,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "QH",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 31,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "dealer",
+          "appeared_at_frame": 3,
+          "disappeared_at_frame": 23,
+          "sequence": 2
+        },
+        {
+          "card": "JH",
+          "zone": "player",
+          "appeared_at_frame": 4,
+          "disappeared_at_frame": 31,
+          "sequence": 3
+        },
+        {
+          "card": "KC",
+          "zone": "dealer",
+          "appeared_at_frame": 19,
+          "disappeared_at_frame": 28,
+          "sequence": 4
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 2,
+          "cards": [
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 2,
+          "cards": [
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 1,
+          "cards": [
+            "QH"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 2,
+          "cards": [
+            "QH",
+            "8C"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 3,
+          "cards": [
+            "QH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 3,
+          "cards": [
+            "JH",
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 3,
+          "cards": [
+            "QH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 3,
+          "cards": [
+            "QH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 3,
+          "cards": [
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 3,
+          "cards": [
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 4,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "QH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 4,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 2,
+          "cards": [
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 3,
+          "cards": [
+            "QH",
+            "JH",
+            "JH"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 4,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 4,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 4,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "KC"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 5,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "QH",
+            "KC"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 5,
+          "cards": [
+            "QH",
+            "JH",
+            "JH",
+            "KC",
+            "QH"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "8C"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 5,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "8C",
+            "KC"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 5,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "KC",
+            "8C"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 2,
+          "cards": [
+            "JH",
+            "JH"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "QH"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 5,
+          "cards": [
+            "JH",
+            "JH",
+            "KC",
+            "QH",
+            "KC"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "KC"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "QH",
+            "JH",
+            "KC"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 3,
+          "cards": [
+            "QH",
+            "JH",
+            "JH"
+          ]
+        },
+        {
+          "frame": 155,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "QH",
+            "KC"
+          ]
+        }
+      ],
+      "game_log_file": "output/testA_game_log.json"
+    },
+    {
+      "video": "player_bust.MOV",
+      "fps": 30.0,
+      "total_frames": 154,
+      "player_cards": [
+        "10C",
+        "8C",
+        "7D"
+      ],
+      "player_value": 25,
+      "dealer_visible_cards": [
+        "10D"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_total_value": 10,
+      "outcome": "DEALER WINS - Player Bust",
+      "card_timeline": [
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 29,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 24,
+          "sequence": 2
+        },
+        {
+          "card": "7D",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "disappeared_at_frame": 30,
+          "sequence": 3
+        },
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 3,
+          "disappeared_at_frame": 30,
+          "sequence": 4
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "7D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "7D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "7D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10C",
+            "7D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "7D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 3,
+          "cards": [
+            "10D",
+            "10D",
+            "7D"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 6,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "7D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C",
+            "7D"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 6,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "7D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 3,
+          "cards": [
+            "10C",
+            "10D",
+            "10D"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "7D",
+            "10D",
+            "10C",
+            "10D"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10C",
+            "7D",
+            "10D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10C",
+            "7D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10C",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "7D"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "7D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "7D",
+            "10C"
+          ]
+        }
+      ],
+      "game_log_file": "output/player_bust_game_log.json"
+    },
+    {
+      "video": "player_win.MOV",
+      "fps": 30.0,
+      "total_frames": 133,
+      "player_cards": [
+        "10C",
+        "8C"
+      ],
+      "player_value": 18,
+      "dealer_visible_cards": [
+        "10D"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_total_value": 10,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 26,
+          "sequence": 1
+        },
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "disappeared_at_frame": 26,
+          "sequence": 2
+        },
+        {
+          "card": "8C",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "disappeared_at_frame": 26,
+          "sequence": 3
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10C",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 6,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 3,
+          "cards": [
+            "10C",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10C",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "10D",
+            "10D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "8C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "10C",
+            "10C",
+            "8C"
+          ]
+        }
+      ],
+      "game_log_file": "output/player_win_game_log.json"
+    },
+    {
+      "video": "dealer_bust.MOV",
+      "fps": 30.0,
+      "total_frames": 150,
+      "player_cards": [
+        "9D"
+      ],
+      "player_value": 9,
+      "dealer_visible_cards": [
+        "JH"
+      ],
+      "dealer_hidden_card": "KS",
+      "dealer_total_value": 30,
+      "outcome": "DEALER WINS",
+      "card_timeline": [
+        {
+          "card": "JH",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 28,
+          "sequence": 1
+        },
+        {
+          "card": "9D",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 25,
+          "sequence": 2
+        },
+        {
+          "card": "KS",
+          "zone": "dealer",
+          "appeared_at_frame": 18,
+          "disappeared_at_frame": 27,
+          "sequence": 3
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 4,
+          "cards": [
+            "9D",
+            "JH",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 4,
+          "cards": [
+            "9D",
+            "JH",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 4,
+          "cards": [
+            "9D",
+            "JH",
+            "9D",
+            "JH"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "JH",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "9D",
+            "JH"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 4,
+          "cards": [
+            "9D",
+            "JH",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 4,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 5,
+          "cards": [
+            "JH",
+            "9D",
+            "JH",
+            "9D",
+            "KS"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 5,
+          "cards": [
+            "KS",
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 5,
+          "cards": [
+            "KS",
+            "JH",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 5,
+          "cards": [
+            "9D",
+            "JH",
+            "KS",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 5,
+          "cards": [
+            "9D",
+            "KS",
+            "JH",
+            "9D",
+            "JH"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 6,
+          "cards": [
+            "JH",
+            "KS",
+            "KS",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 6,
+          "cards": [
+            "9D",
+            "JH",
+            "KS",
+            "KS",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 6,
+          "cards": [
+            "KS",
+            "JH",
+            "JH",
+            "9D",
+            "KS",
+            "9D"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 6,
+          "cards": [
+            "KS",
+            "JH",
+            "KS",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 6,
+          "cards": [
+            "JH",
+            "KS",
+            "KS",
+            "9D",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 6,
+          "cards": [
+            "9D",
+            "KS",
+            "JH",
+            "KS",
+            "JH",
+            "9D"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 6,
+          "cards": [
+            "9D",
+            "JH",
+            "JH",
+            "KS",
+            "KS",
+            "9D"
+          ]
+        }
+      ],
+      "game_log_file": "output/dealer_bust_game_log.json"
+    },
+    {
+      "video": "player_21.MOV",
+      "fps": 30.0,
+      "total_frames": 92,
+      "player_cards": [
+        "10H"
+      ],
+      "player_value": 10,
+      "dealer_visible_cards": [
+        "8D"
+      ],
+      "dealer_hidden_card": "9H",
+      "dealer_total_value": 26,
+      "outcome": "DEALER WINS",
+      "card_timeline": [
+        {
+          "card": "10H",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 15,
+          "sequence": 1
+        },
+        {
+          "card": "8D",
+          "zone": "dealer",
+          "appeared_at_frame": 4,
+          "disappeared_at_frame": 13,
+          "sequence": 2
+        },
+        {
+          "card": "9H",
+          "zone": "dealer",
+          "appeared_at_frame": 11,
+          "disappeared_at_frame": 16,
+          "sequence": 3
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "8D"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 2,
+          "cards": [
+            "10H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 2,
+          "cards": [
+            "10H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "8D"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "8D"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 2,
+          "cards": [
+            "10H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 2,
+          "cards": [
+            "10H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 2,
+          "cards": [
+            "10H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "8D"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "9H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 4,
+          "cards": [
+            "10H",
+            "10H",
+            "9H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "10H",
+            "9H",
+            "8D",
+            "9D",
+            "10H",
+            "9H"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "10H",
+            "8D",
+            "9H",
+            "9H"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 4,
+          "cards": [
+            "10H",
+            "10H",
+            "9H",
+            "9H"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 4,
+          "cards": [
+            "10H",
+            "10H",
+            "10H",
+            "9H"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "10H",
+            "9H",
+            "9H",
+            "10H"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 3,
+          "cards": [
+            "10H",
+            "10H",
+            "9H"
+          ]
+        }
+      ],
+      "game_log_file": "output/player_21_game_log.json"
+    },
+    {
+      "video": "scenario1.MOV",
+      "fps": 30.0,
+      "total_frames": 203,
+      "player_cards": [
+        "10S",
+        "9D"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "7H"
+      ],
+      "dealer_hidden_card": "JC",
+      "dealer_total_value": 27,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "7H",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 40,
+          "sequence": 1
+        },
+        {
+          "card": "10S",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 40,
+          "sequence": 2
+        },
+        {
+          "card": "9D",
+          "zone": "player",
+          "appeared_at_frame": 13,
+          "disappeared_at_frame": 40,
+          "sequence": 3
+        },
+        {
+          "card": "JC",
+          "zone": "dealer",
+          "appeared_at_frame": 29,
+          "disappeared_at_frame": 39,
+          "sequence": 4
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "7H",
+            "10S"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 4,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 5,
+          "cards": [
+            "7H",
+            "7H",
+            "10S",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 5,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 5,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "9D",
+            "10S"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 5,
+          "cards": [
+            "7H",
+            "10S",
+            "7H",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "9D",
+            "7H"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "10S",
+            "7H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "9D",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "7H",
+            "10S",
+            "9D",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "9D",
+            "7H"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "7H",
+            "10S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "9D",
+            "7H"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "10S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 7,
+          "cards": [
+            "10S",
+            "10S",
+            "7H",
+            "7H",
+            "JC",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "9D",
+            "7H",
+            "9D",
+            "10S"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 7,
+          "cards": [
+            "7H",
+            "9D",
+            "10S",
+            "7H",
+            "10S",
+            "9D",
+            "JC"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        },
+        {
+          "frame": 155,
+          "detections": 5,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "9D",
+            "10S"
+          ]
+        },
+        {
+          "frame": 160,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "9D",
+            "10S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 165,
+          "detections": 7,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H",
+            "9D",
+            "9D",
+            "JC"
+          ]
+        },
+        {
+          "frame": 170,
+          "detections": 8,
+          "cards": [
+            "7H",
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "9D",
+            "JC",
+            "JC"
+          ]
+        },
+        {
+          "frame": 175,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "7H",
+            "10S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 180,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "7H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 185,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "7H",
+            "JC",
+            "10S",
+            "9D",
+            "7H"
+          ]
+        },
+        {
+          "frame": 190,
+          "detections": 7,
+          "cards": [
+            "7H",
+            "9D",
+            "7H",
+            "10S",
+            "10S",
+            "JC",
+            "9D"
+          ]
+        },
+        {
+          "frame": 195,
+          "detections": 6,
+          "cards": [
+            "10S",
+            "10S",
+            "7H",
+            "7H",
+            "9D",
+            "JC"
+          ]
+        },
+        {
+          "frame": 200,
+          "detections": 6,
+          "cards": [
+            "7H",
+            "10S",
+            "10S",
+            "9D",
+            "7H",
+            "9D"
+          ]
+        }
+      ],
+      "game_log_file": "output/scenario1_game_log.json"
+    },
+    {
+      "video": "scenario2.MOV",
+      "fps": 30.0,
+      "total_frames": 212,
+      "player_cards": [
+        "KH",
+        "9S"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "8C"
+      ],
+      "dealer_hidden_card": "10D",
+      "dealer_total_value": 28,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "KH",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 42,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "dealer",
+          "appeared_at_frame": 8,
+          "disappeared_at_frame": 41,
+          "sequence": 2
+        },
+        {
+          "card": "9S",
+          "zone": "player",
+          "appeared_at_frame": 17,
+          "disappeared_at_frame": 42,
+          "sequence": 3
+        },
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 24,
+          "disappeared_at_frame": 42,
+          "sequence": 4
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "KH",
+            "8C"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 4,
+          "cards": [
+            "KH",
+            "QS",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "QS",
+            "QS"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 3,
+          "cards": [
+            "QS",
+            "QS",
+            "JH"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 5,
+          "cards": [
+            "QS",
+            "QS",
+            "KH",
+            "8C",
+            "8C"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 3,
+          "cards": [
+            "QS",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 3,
+          "cards": [
+            "QS",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 3,
+          "cards": [
+            "QS",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "QS",
+            "QS"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 4,
+          "cards": [
+            "KH",
+            "QS",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 4,
+          "cards": [
+            "AS",
+            "QS",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "QS",
+            "9S"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 1,
+          "cards": [
+            "QS"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 1,
+          "cards": [
+            "QS"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 2,
+          "cards": [
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 3,
+          "cards": [
+            "QS",
+            "KH",
+            "8C"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 2,
+          "cards": [
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 2,
+          "cards": [
+            "10D",
+            "KH"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "KH",
+            "10D",
+            "QS"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 3,
+          "cards": [
+            "10D",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 4,
+          "cards": [
+            "KH",
+            "10D",
+            "QS",
+            "8D"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 3,
+          "cards": [
+            "KH",
+            "10D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "KH",
+            "QS"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "KH",
+            "QS",
+            "QS"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 7,
+          "cards": [
+            "10D",
+            "10D",
+            "KH",
+            "QS",
+            "QS",
+            "KH",
+            "8C"
+          ]
+        },
+        {
+          "frame": 155,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "KH",
+            "QS",
+            "QS"
+          ]
+        },
+        {
+          "frame": 160,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "KH",
+            "QS",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 165,
+          "detections": 7,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "KH",
+            "QS",
+            "8C",
+            "KH"
+          ]
+        },
+        {
+          "frame": 170,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "QS",
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 175,
+          "detections": 5,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 180,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "QS",
+            "10D",
+            "KH",
+            "QS",
+            "KH"
+          ]
+        },
+        {
+          "frame": 185,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "QS",
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 190,
+          "detections": 4,
+          "cards": [
+            "10D",
+            "QS",
+            "10D",
+            "QS"
+          ]
+        },
+        {
+          "frame": 195,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "QS",
+            "KH",
+            "KH"
+          ]
+        },
+        {
+          "frame": 200,
+          "detections": 7,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "QS",
+            "KH",
+            "KH",
+            "QC"
+          ]
+        },
+        {
+          "frame": 205,
+          "detections": 7,
+          "cards": [
+            "10D",
+            "10D",
+            "QS",
+            "KH",
+            "QS",
+            "QC",
+            "KH"
+          ]
+        },
+        {
+          "frame": 210,
+          "detections": 6,
+          "cards": [
+            "10D",
+            "10D",
+            "KH",
+            "QS",
+            "KH",
+            "QS"
+          ]
+        }
+      ],
+      "game_log_file": "output/scenario2_game_log.json"
+    },
+    {
+      "video": "scenario3.MOV",
+      "fps": 30.0,
+      "total_frames": 238,
+      "player_cards": [
+        "10C",
+        "7H",
+        "5H",
+        "7S"
+      ],
+      "player_value": 29,
+      "dealer_visible_cards": [
+        "9C"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_total_value": 9,
+      "outcome": "DEALER WINS - Player Bust",
+      "card_timeline": [
+        {
+          "card": "9C",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 47,
+          "sequence": 1
+        },
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 9,
+          "disappeared_at_frame": 47,
+          "sequence": 2
+        },
+        {
+          "card": "7H",
+          "zone": "player",
+          "appeared_at_frame": 9,
+          "disappeared_at_frame": 44,
+          "sequence": 3
+        },
+        {
+          "card": "5H",
+          "zone": "player",
+          "appeared_at_frame": 13,
+          "disappeared_at_frame": 41,
+          "sequence": 4
+        },
+        {
+          "card": "7S",
+          "zone": "player",
+          "appeared_at_frame": 38,
+          "disappeared_at_frame": 47,
+          "sequence": 5
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 0,
+          "cards": []
+        },
+        {
+          "frame": 5,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "10C",
+            "9C",
+            "9C"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 3,
+          "cards": [
+            "2C",
+            "9C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 0,
+          "cards": []
+        },
+        {
+          "frame": 20,
+          "detections": 1,
+          "cards": [
+            "10C"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 3,
+          "cards": [
+            "10C",
+            "9C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 1,
+          "cards": [
+            "10C"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 1,
+          "cards": [
+            "10C"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 2,
+          "cards": [
+            "10C",
+            "9C"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 3,
+          "cards": [
+            "QC",
+            "10C",
+            "7H"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 0,
+          "cards": []
+        },
+        {
+          "frame": 55,
+          "detections": 0,
+          "cards": []
+        },
+        {
+          "frame": 60,
+          "detections": 5,
+          "cards": [
+            "10C",
+            "5H",
+            "QC",
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 3,
+          "cards": [
+            "5H",
+            "10C",
+            "9C"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 1,
+          "cards": [
+            "5H"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 2,
+          "cards": [
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 3,
+          "cards": [
+            "9C",
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 3,
+          "cards": [
+            "9C",
+            "10C",
+            "9C"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 1,
+          "cards": [
+            "10C"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 2,
+          "cards": [
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 1,
+          "cards": [
+            "5H"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 1,
+          "cards": [
+            "10C"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 2,
+          "cards": [
+            "JD",
+            "10C"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "5H",
+            "10C",
+            "5H",
+            "9C"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 4,
+          "cards": [
+            "JD",
+            "10C",
+            "9C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 2,
+          "cards": [
+            "JD",
+            "10C"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 4,
+          "cards": [
+            "10C",
+            "JD",
+            "9C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "9C",
+            "9C"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 2,
+          "cards": [
+            "JD",
+            "JD"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 2,
+          "cards": [
+            "JD",
+            "JD"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 4,
+          "cards": [
+            "JD",
+            "10C",
+            "JD",
+            "5H"
+          ]
+        },
+        {
+          "frame": 155,
+          "detections": 2,
+          "cards": [
+            "JD",
+            "JD"
+          ]
+        },
+        {
+          "frame": 160,
+          "detections": 3,
+          "cards": [
+            "JD",
+            "JD",
+            "9C"
+          ]
+        },
+        {
+          "frame": 165,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "9C",
+            "7H"
+          ]
+        },
+        {
+          "frame": 170,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "10C",
+            "JD",
+            "7H",
+            "7H"
+          ]
+        },
+        {
+          "frame": 175,
+          "detections": 4,
+          "cards": [
+            "JD",
+            "JD",
+            "9C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 180,
+          "detections": 4,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 185,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "QC",
+            "5H",
+            "10C"
+          ]
+        },
+        {
+          "frame": 190,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "7S",
+            "10C",
+            "5H"
+          ]
+        },
+        {
+          "frame": 195,
+          "detections": 3,
+          "cards": [
+            "JD",
+            "JD",
+            "7S"
+          ]
+        },
+        {
+          "frame": 200,
+          "detections": 4,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "7S"
+          ]
+        },
+        {
+          "frame": 205,
+          "detections": 7,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "7S",
+            "7S",
+            "7H",
+            "7H"
+          ]
+        },
+        {
+          "frame": 210,
+          "detections": 7,
+          "cards": [
+            "JD",
+            "JD",
+            "7S",
+            "9C",
+            "7S",
+            "10C",
+            "10C"
+          ]
+        },
+        {
+          "frame": 215,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "7S",
+            "10C",
+            "7S"
+          ]
+        },
+        {
+          "frame": 220,
+          "detections": 6,
+          "cards": [
+            "10C",
+            "JD",
+            "JD",
+            "7S",
+            "7S",
+            "7H"
+          ]
+        },
+        {
+          "frame": 225,
+          "detections": 6,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "7S",
+            "7S",
+            "9C"
+          ]
+        },
+        {
+          "frame": 230,
+          "detections": 5,
+          "cards": [
+            "JD",
+            "JD",
+            "7S",
+            "9C",
+            "7S"
+          ]
+        },
+        {
+          "frame": 235,
+          "detections": 6,
+          "cards": [
+            "JD",
+            "JD",
+            "10C",
+            "9C",
+            "7S",
+            "7S"
+          ]
+        }
+      ],
+      "game_log_file": "output/scenario3_game_log.json"
+    },
+    {
+      "video": "scenario4.MOV",
+      "fps": 30.0,
+      "total_frames": 193,
+      "player_cards": [
+        "9S",
+        "10H"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "9D"
+      ],
+      "dealer_hidden_card": "KC",
+      "dealer_total_value": 29,
+      "outcome": "PUSH",
+      "card_timeline": [
+        {
+          "card": "9S",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 38,
+          "sequence": 1
+        },
+        {
+          "card": "9D",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "disappeared_at_frame": 38,
+          "sequence": 2
+        },
+        {
+          "card": "10H",
+          "zone": "player",
+          "appeared_at_frame": 3,
+          "disappeared_at_frame": 38,
+          "sequence": 3
+        },
+        {
+          "card": "KC",
+          "zone": "dealer",
+          "appeared_at_frame": 20,
+          "disappeared_at_frame": 38,
+          "sequence": 4
+        }
+      ],
+      "frame_log": [
+        {
+          "frame": 0,
+          "detections": 4,
+          "cards": [
+            "9S",
+            "9S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 5,
+          "detections": 4,
+          "cards": [
+            "9S",
+            "9D",
+            "9S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 10,
+          "detections": 4,
+          "cards": [
+            "9S",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 15,
+          "detections": 5,
+          "cards": [
+            "9S",
+            "9D",
+            "9S",
+            "9D",
+            "10H"
+          ]
+        },
+        {
+          "frame": 20,
+          "detections": 5,
+          "cards": [
+            "9S",
+            "9D",
+            "9D",
+            "9S",
+            "10H"
+          ]
+        },
+        {
+          "frame": 25,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 30,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9D",
+            "9D",
+            "9S",
+            "9S"
+          ]
+        },
+        {
+          "frame": 35,
+          "detections": 5,
+          "cards": [
+            "9D",
+            "10H",
+            "9S",
+            "9S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 40,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9D",
+            "9D",
+            "9S",
+            "9S"
+          ]
+        },
+        {
+          "frame": 45,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 50,
+          "detections": 4,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 55,
+          "detections": 4,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 60,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 65,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 70,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 75,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9S",
+            "9D"
+          ]
+        },
+        {
+          "frame": 80,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 85,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 90,
+          "detections": 6,
+          "cards": [
+            "9S",
+            "10H",
+            "10H",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 95,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 100,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "KC",
+            "9S"
+          ]
+        },
+        {
+          "frame": 105,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 110,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "10H",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 115,
+          "detections": 5,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D"
+          ]
+        },
+        {
+          "frame": 120,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "KC"
+          ]
+        },
+        {
+          "frame": 125,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 130,
+          "detections": 6,
+          "cards": [
+            "9S",
+            "10H",
+            "10H",
+            "9D",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 135,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9S",
+            "9D",
+            "KC"
+          ]
+        },
+        {
+          "frame": 140,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "KC"
+          ]
+        },
+        {
+          "frame": 145,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9D",
+            "9S",
+            "10H",
+            "9D",
+            "KC",
+            "9S"
+          ]
+        },
+        {
+          "frame": 150,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9S",
+            "9D",
+            "9D",
+            "KC"
+          ]
+        },
+        {
+          "frame": 155,
+          "detections": 7,
+          "cards": [
+            "9S",
+            "9D",
+            "KC",
+            "10H",
+            "10H",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 160,
+          "detections": 8,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "KC",
+            "9D",
+            "KC",
+            "9S"
+          ]
+        },
+        {
+          "frame": 165,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9S",
+            "9D",
+            "KC",
+            "10H",
+            "9D",
+            "9S"
+          ]
+        },
+        {
+          "frame": 170,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "KC",
+            "9S"
+          ]
+        },
+        {
+          "frame": 175,
+          "detections": 8,
+          "cards": [
+            "10H",
+            "9S",
+            "KC",
+            "9D",
+            "10H",
+            "9D",
+            "KC",
+            "9S"
+          ]
+        },
+        {
+          "frame": 180,
+          "detections": 6,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "KC"
+          ]
+        },
+        {
+          "frame": 185,
+          "detections": 8,
+          "cards": [
+            "10H",
+            "10H",
+            "9D",
+            "9S",
+            "9D",
+            "KC",
+            "9S",
+            "KC"
+          ]
+        },
+        {
+          "frame": 190,
+          "detections": 7,
+          "cards": [
+            "10H",
+            "9S",
+            "10H",
+            "9D",
+            "9D",
+            "9S",
+            "KC"
+          ]
+        }
+      ],
+      "game_log_file": "output/scenario4_game_log.json"
+    }
+  ]
+}

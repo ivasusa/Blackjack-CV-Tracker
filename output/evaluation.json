@@ -1,0 +1,236 @@
+{
+  "generated": "2026-09-08T20:50:46.730272",
+  "metrics": {
+    "card_level": {
+      "true_positives": 30,
+      "false_positives": 3,
+      "false_negatives": 6,
+      "precision": 0.909,
+      "recall": 0.833,
+      "f1_score": 0.87
+    },
+    "video_level": {
+      "videos_evaluated": 9,
+      "outcome_correct": 6,
+      "outcome_accuracy": 0.667,
+      "all_cards_correct": 6,
+      "card_accuracy": 0.667
+    },
+    "confusion_pairs": [
+      {
+        "expected": "8D",
+        "detected": "9D"
+      }
+    ]
+  },
+  "per_video": [
+    {
+      "video": "player_21.MOV",
+      "expected_player": [
+        "10H",
+        "AC"
+      ],
+      "detected_player": [
+        "10H"
+      ],
+      "expected_dealer": [
+        "8D",
+        "9H"
+      ],
+      "detected_dealer": [
+        "8D",
+        "9H"
+      ],
+      "expected_outcome": "PLAYER WINS",
+      "detected_outcome": "DEALER WINS",
+      "all_cards_correct": false,
+      "outcome_correct": false
+    },
+    {
+      "video": "player_bust.MOV",
+      "expected_player": [
+        "10C",
+        "8C",
+        "7D"
+      ],
+      "detected_player": [
+        "10C",
+        "8C",
+        "7D"
+      ],
+      "expected_dealer": [
+        "10D"
+      ],
+      "detected_dealer": [
+        "10D"
+      ],
+      "expected_outcome": "DEALER WINS - Player Bust",
+      "detected_outcome": "DEALER WINS - Player Bust",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    },
+    {
+      "video": "player_win.MOV",
+      "expected_player": [
+        "10C",
+        "8C"
+      ],
+      "detected_player": [
+        "10C",
+        "8C"
+      ],
+      "expected_dealer": [
+        "10D"
+      ],
+      "detected_dealer": [
+        "10D"
+      ],
+      "expected_outcome": "PLAYER WINS",
+      "detected_outcome": "PLAYER WINS",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    },
+    {
+      "video": "scenario1.MOV",
+      "expected_player": [
+        "10S",
+        "9D"
+      ],
+      "detected_player": [
+        "10S",
+        "9D"
+      ],
+      "expected_dealer": [
+        "7H",
+        "JC"
+      ],
+      "detected_dealer": [
+        "7H",
+        "JC"
+      ],
+      "expected_outcome": "PLAYER WINS",
+      "detected_outcome": "PLAYER WINS",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    },
+    {
+      "video": "scenario2.MOV",
+      "expected_player": [
+        "KH"
+      ],
+      "detected_player": [
+        "KH",
+        "9S"
+      ],
+      "expected_dealer": [
+        "6C",
+        "10D",
+        "8C"
+      ],
+      "detected_dealer": [
+        "8C",
+        "10D"
+      ],
+      "expected_outcome": "PLAYER WINS - Dealer Bust",
+      "detected_outcome": "PLAYER WINS",
+      "all_cards_correct": false,
+      "outcome_correct": false
+    },
+    {
+      "video": "scenario3.MOV",
+      "expected_player": [
+        "10C",
+        "7H",
+        "5H",
+        "7S"
+      ],
+      "detected_player": [
+        "10C",
+        "7H",
+        "5H",
+        "7S"
+      ],
+      "expected_dealer": [
+        "9C"
+      ],
+      "detected_dealer": [
+        "9C"
+      ],
+      "expected_outcome": "DEALER WINS - Player Bust",
+      "detected_outcome": "DEALER WINS - Player Bust",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    },
+    {
+      "video": "scenario4.MOV",
+      "expected_player": [
+        "9S",
+        "10H"
+      ],
+      "detected_player": [
+        "9S",
+        "10H"
+      ],
+      "expected_dealer": [
+        "9D",
+        "KC"
+      ],
+      "detected_dealer": [
+        "9D",
+        "KC"
+      ],
+      "expected_outcome": "PUSH",
+      "detected_outcome": "PUSH",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    },
+    {
+      "video": "test.MOV",
+      "expected_player": [
+        "8D",
+        "JD"
+      ],
+      "detected_player": [
+        "9D"
+      ],
+      "expected_dealer": [
+        "8H",
+        "JH"
+      ],
+      "detected_dealer": [
+        "2C"
+      ],
+      "expected_outcome": "PUSH",
+      "detected_outcome": "PLAYER WINS",
+      "all_cards_correct": false,
+      "outcome_correct": false
+    },
+    {
+      "video": "testA.MOV",
+      "expected_player": [
+        "QH",
+        "JH"
+      ],
+      "detected_player": [
+        "QH",
+        "JH"
+      ],
+      "expected_dealer": [
+        "8C",
+        "KC"
+      ],
+      "detected_dealer": [
+        "8C",
+        "KC"
+      ],
+      "expected_outcome": "PLAYER WINS",
+      "detected_outcome": "PLAYER WINS",
+      "all_cards_correct": true,
+      "outcome_correct": true
+    }
+  ],
+  "skipped_no_ground_truth": [
+    "equal.MOV",
+    "testB.MOV"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "video": "scenario4.MOV",
+    "fps": 30.0,
+    "timestamp_created": "2026-09-08T20:49:05.674054",
+    "total_card_events": 4,
+    "total_game_events": 0
+  },
+  "final_state": {
+    "player_cards": [
+      "9S",
+      "10H"
+    ],
+    "dealer_visible_cards": [
+      "9D"
+    ],
+    "dealer_hidden_card": "KC",
+    "outcome": "PUSH"
+  },
+  "card_timeline": [
+    {
+      "sequence": 1,
+      "card": "9S",
+      "zone": "player",
+      "frame": 1,
+      "timestamp_seconds": 0.03333333333333333,
+      "event_type": "initial_deal",
+      "visible": true
+    },
+    {
+      "sequence": 2,
+      "card": "9D",
+      "zone": "dealer",
+      "frame": 1,
+      "timestamp_seconds": 0.03333333333333333,
+      "event_type": "initial_deal",
+      "visible": true
+    },
+    {
+      "sequence": 3,
+      "card": "10H",
+      "zone": "player",
+      "frame": 3,
+      "timestamp_seconds": 0.1,
+      "event_type": "initial_deal",
+      "visible": true
+    },
+    {
+      "sequence": 4,
+      "card": "KC",
+      "zone": "dealer",
+      "frame": 20,
+      "timestamp_seconds": 0.6666666666666666,
+      "event_type": "initial_deal",
+      "visible": false
+    }
+  ],
+  "game_timeline": []
+}

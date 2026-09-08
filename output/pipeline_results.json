@@ -1,0 +1,460 @@
+{
+  "results": [
+    {
+      "video": "equal.MOV",
+      "fps": 30.0,
+      "total_frames": 107,
+      "player_cards": [
+        "JD",
+        "8D"
+      ],
+      "player_value": 18,
+      "dealer_visible_cards": [
+        "8H"
+      ],
+      "dealer_hidden_card": "JH",
+      "dealer_value": 18,
+      "outcome": "PUSH",
+      "card_timeline": [
+        {
+          "card": "JD",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "8H",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "sequence": 2
+        },
+        {
+          "card": "8D",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 3
+        },
+        {
+          "card": "JH",
+          "zone": "dealer",
+          "appeared_at_frame": 11,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/equal_game_log.json"
+    },
+    {
+      "video": "player_21.MOV",
+      "fps": 30.0,
+      "total_frames": 92,
+      "player_cards": [
+        "10H"
+      ],
+      "player_value": 10,
+      "dealer_visible_cards": [
+        "8D"
+      ],
+      "dealer_hidden_card": "9H",
+      "dealer_value": 17,
+      "outcome": "DEALER WINS",
+      "card_timeline": [
+        {
+          "card": "10H",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "8D",
+          "zone": "dealer",
+          "appeared_at_frame": 4,
+          "sequence": 2
+        },
+        {
+          "card": "9H",
+          "zone": "dealer",
+          "appeared_at_frame": 11,
+          "sequence": 3
+        }
+      ],
+      "game_log_file": "output/player_21_game_log.json"
+    },
+    {
+      "video": "player_bust.MOV",
+      "fps": 30.0,
+      "total_frames": 154,
+      "player_cards": [
+        "10C",
+        "8C",
+        "7D"
+      ],
+      "player_value": 25,
+      "dealer_visible_cards": [
+        "10D"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_value": 10,
+      "outcome": "DEALER WINS - Player Bust",
+      "card_timeline": [
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 2
+        },
+        {
+          "card": "7D",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "sequence": 3
+        },
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 3,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/player_bust_game_log.json"
+    },
+    {
+      "video": "player_win.MOV",
+      "fps": 30.0,
+      "total_frames": 133,
+      "player_cards": [
+        "10C",
+        "8C"
+      ],
+      "player_value": 18,
+      "dealer_visible_cards": [
+        "10D"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_value": 10,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "sequence": 2
+        },
+        {
+          "card": "8C",
+          "zone": "player",
+          "appeared_at_frame": 2,
+          "sequence": 3
+        }
+      ],
+      "game_log_file": "output/player_win_game_log.json"
+    },
+    {
+      "video": "scenario1.MOV",
+      "fps": 30.0,
+      "total_frames": 203,
+      "player_cards": [
+        "10S",
+        "9D"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "7H"
+      ],
+      "dealer_hidden_card": "JC",
+      "dealer_value": 17,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "7H",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "10S",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 2
+        },
+        {
+          "card": "9D",
+          "zone": "player",
+          "appeared_at_frame": 13,
+          "sequence": 3
+        },
+        {
+          "card": "JC",
+          "zone": "dealer",
+          "appeared_at_frame": 29,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/scenario1_game_log.json"
+    },
+    {
+      "video": "scenario2.MOV",
+      "fps": 30.0,
+      "total_frames": 212,
+      "player_cards": [
+        "KH",
+        "9S"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "8C"
+      ],
+      "dealer_hidden_card": "10D",
+      "dealer_value": 18,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "KH",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "dealer",
+          "appeared_at_frame": 8,
+          "sequence": 2
+        },
+        {
+          "card": "9S",
+          "zone": "player",
+          "appeared_at_frame": 17,
+          "sequence": 3
+        },
+        {
+          "card": "10D",
+          "zone": "dealer",
+          "appeared_at_frame": 24,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/scenario2_game_log.json"
+    },
+    {
+      "video": "scenario3.MOV",
+      "fps": 30.0,
+      "total_frames": 238,
+      "player_cards": [
+        "10C",
+        "7H",
+        "5H",
+        "7S"
+      ],
+      "player_value": 29,
+      "dealer_visible_cards": [
+        "9C"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_value": 9,
+      "outcome": "DEALER WINS - Player Bust",
+      "card_timeline": [
+        {
+          "card": "9C",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "10C",
+          "zone": "player",
+          "appeared_at_frame": 9,
+          "sequence": 2
+        },
+        {
+          "card": "7H",
+          "zone": "player",
+          "appeared_at_frame": 9,
+          "sequence": 3
+        },
+        {
+          "card": "5H",
+          "zone": "player",
+          "appeared_at_frame": 13,
+          "sequence": 4
+        },
+        {
+          "card": "7S",
+          "zone": "player",
+          "appeared_at_frame": 38,
+          "sequence": 5
+        }
+      ],
+      "game_log_file": "output/scenario3_game_log.json"
+    },
+    {
+      "video": "scenario4.MOV",
+      "fps": 30.0,
+      "total_frames": 193,
+      "player_cards": [
+        "9S",
+        "10H"
+      ],
+      "player_value": 19,
+      "dealer_visible_cards": [
+        "9D"
+      ],
+      "dealer_hidden_card": "KC",
+      "dealer_value": 19,
+      "outcome": "PUSH",
+      "card_timeline": [
+        {
+          "card": "9S",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "9D",
+          "zone": "dealer",
+          "appeared_at_frame": 1,
+          "sequence": 2
+        },
+        {
+          "card": "10H",
+          "zone": "player",
+          "appeared_at_frame": 3,
+          "sequence": 3
+        },
+        {
+          "card": "KC",
+          "zone": "dealer",
+          "appeared_at_frame": 20,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/scenario4_game_log.json"
+    },
+    {
+      "video": "test.MOV",
+      "fps": 30.0,
+      "total_frames": 216,
+      "player_cards": [
+        "9D"
+      ],
+      "player_value": 9,
+      "dealer_visible_cards": [
+        "2C"
+      ],
+      "dealer_hidden_card": null,
+      "dealer_value": 2,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "9D",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "2C",
+          "zone": "dealer",
+          "appeared_at_frame": 12,
+          "sequence": 2
+        }
+      ],
+      "game_log_file": "output/test_game_log.json"
+    },
+    {
+      "video": "testA.MOV",
+      "fps": 30.0,
+      "total_frames": 158,
+      "player_cards": [
+        "QH",
+        "JH"
+      ],
+      "player_value": 20,
+      "dealer_visible_cards": [
+        "8C"
+      ],
+      "dealer_hidden_card": "KC",
+      "dealer_value": 18,
+      "outcome": "PLAYER WINS",
+      "card_timeline": [
+        {
+          "card": "QH",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "8C",
+          "zone": "dealer",
+          "appeared_at_frame": 3,
+          "sequence": 2
+        },
+        {
+          "card": "JH",
+          "zone": "player",
+          "appeared_at_frame": 4,
+          "sequence": 3
+        },
+        {
+          "card": "KC",
+          "zone": "dealer",
+          "appeared_at_frame": 19,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/testA_game_log.json"
+    },
+    {
+      "video": "testB.MOV",
+      "fps": 30.0,
+      "total_frames": 220,
+      "player_cards": [
+        "7S",
+        "JH"
+      ],
+      "player_value": 17,
+      "dealer_visible_cards": [
+        "10C"
+      ],
+      "dealer_hidden_card": "QC",
+      "dealer_value": 20,
+      "outcome": "DEALER WINS",
+      "card_timeline": [
+        {
+          "card": "7S",
+          "zone": "player",
+          "appeared_at_frame": 1,
+          "sequence": 1
+        },
+        {
+          "card": "JH",
+          "zone": "player",
+          "appeared_at_frame": 3,
+          "sequence": 2
+        },
+        {
+          "card": "10C",
+          "zone": "dealer",
+          "appeared_at_frame": 3,
+          "sequence": 3
+        },
+        {
+          "card": "QC",
+          "zone": "dealer",
+          "appeared_at_frame": 10,
+          "sequence": 4
+        }
+      ],
+      "game_log_file": "output/testB_game_log.json"
+    }
+  ]
+}

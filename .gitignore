@@ -37,13 +37,6 @@ ehthumbs.db
 *.zip
 *.tar.gz
 
-# Output (generate on each run)
-output/
-*.json
-!ground_truth.json
-*.png
-*.jpg
-
 # Temporary
 *.tmp
 .pytest_cache/

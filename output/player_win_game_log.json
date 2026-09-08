@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "video": "player_win.MOV",
+    "fps": 30.0,
+    "timestamp_created": "2026-09-08T20:47:24.149485",
+    "total_card_events": 3,
+    "total_game_events": 0
+  },
+  "final_state": {
+    "player_cards": [
+      "10C",
+      "8C"
+    ],
+    "dealer_visible_cards": [
+      "10D"
+    ],
+    "dealer_hidden_card": null,
+    "outcome": "PLAYER WINS"
+  },
+  "card_timeline": [
+    {
+      "sequence": 1,
+      "card": "10D",
+      "zone": "dealer",
+      "frame": 1,
+      "timestamp_seconds": 0.03333333333333333,
+      "event_type": "initial_deal",
+      "visible": true
+    },
+    {
+      "sequence": 2,
+      "card": "10C",
+      "zone": "player",
+      "frame": 2,
+      "timestamp_seconds": 0.06666666666666667,
+      "event_type": "initial_deal",
+      "visible": true
+    },
+    {
+      "sequence": 3,
+      "card": "8C",
+      "zone": "player",
+      "frame": 2,
+      "timestamp_seconds": 0.06666666666666667,
+      "event_type": "initial_deal",
+      "visible": true
+    }
+  ],
+  "game_timeline": []
+}
