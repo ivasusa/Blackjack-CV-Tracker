@@ -1,0 +1,47 @@
+{
+  "test": {
+    "player_cards": ["8D", "JD"],
+    "dealer_cards": ["8H", "JH"],
+    "outcome": "PUSH"
+  },
+  "testA": {
+    "player_cards": ["QH", "JH"],
+    "dealer_cards": ["8C", "KC"],
+    "outcome": "PLAYER WINS"
+  },
+  "player_bust": {
+    "player_cards": ["10C", "8C", "7D"],
+    "dealer_cards": ["10D"],
+    "outcome": "DEALER WINS - Player Bust"
+  },
+  "player_win": {
+    "player_cards": ["10C", "8C"],
+    "dealer_cards": ["10D"],
+    "outcome": "PLAYER WINS"
+  },
+  "player_21": {
+    "player_cards": ["10H", "AC"],
+    "dealer_cards": ["8D", "9H"],
+    "outcome": "PLAYER WINS"
+  },
+  "scenario1": {
+    "player_cards": ["10S", "9D"],
+    "dealer_cards": ["7H", "JC"],
+    "outcome": "PLAYER WINS"
+  },
+  "scenario2": {
+    "player_cards": ["KH"],
+    "dealer_cards": ["6C", "10D", "8C"],
+    "outcome": "PLAYER WINS - Dealer Bust"
+  },
+  "scenario3": {
+    "player_cards": ["10C", "7H", "5H", "7S"],
+    "dealer_cards": ["9C"],
+    "outcome": "DEALER WINS - Player Bust"
+  },
+  "scenario4": {
+    "player_cards": ["9S", "10H"],
+    "dealer_cards": ["9D", "KC"],
+    "outcome": "PUSH"
+  }
+}

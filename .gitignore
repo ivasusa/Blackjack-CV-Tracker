@@ -1,0 +1,55 @@
+# Virtual environment
+venv/
+env/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Large files
+*.MOV
+*.mp4
+*.avi
+*.pt
+*.weights
+
+# Data files (keep code, not raw data)
+*.zip
+*.tar.gz
+
+# Output (generate on each run)
+output/
+*.json
+!ground_truth.json
+*.png
+*.jpg
+
+# Temporary
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials
+.env
+secrets.json
